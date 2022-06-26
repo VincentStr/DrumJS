@@ -1,0 +1,95 @@
+html {
+    background: #24566d;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    padding: 20px 0;
+
+}
+
+#drum-machine {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #D6DBDF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#display {
+    max-width: 1800px;
+    height: 40px;
+    text-align: center;
+    font-size: 35px;
+    font-family: monospace;
+    background-color: #FFC300;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+
+.drum-pad {
+    max-width: 150px;
+    max-height: 150px;
+    color: grey;
+    font-size: 45px;
+    border-radius: 50px;
+    outline: none;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#drum {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 9px;
+
+}
+
+#text {
+    text-align: left;
+    font-family: monospace;
+    font-size: 40px;
+    border-radius: 4px;
+    color: #565656;
+    margin-top: -10px;
+}
+
+.slider {
+    min-width: 100%;
+    margin: 30px 0px;
+    border-style: none;
+}
+
+.slidecontainer {
+    font-family: monospace;
+
+}
+
+input {
+    font-family: monospace;
+    color: black;
+
+}
+
+#demo {
+    background-color: #565656;
+    width: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #f2f2f2;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 5px;
+}
