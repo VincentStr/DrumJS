@@ -22,7 +22,7 @@ html {
 
 #display {
     max-width: 1800px;
-    height: 40px;
+    padding: 10px;
     text-align: center;
     font-size: 35px;
     font-family: monospace;
@@ -92,4 +92,25 @@ input {
     border-radius: 16px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    .drum-pad {
+        color: grey;
+        font-size: 25px;
+        border-radius: 20px;
+        padding-left: 5px;
+        padding-right: 5px;    
+    }
+    #display{
+        font-size: 15px;
+        padding: 5px;
+    }
+    #demo{
+        font-size: 1.5rem;
+        width: 2rem;
+    }
+    #text{
+        font-size: 2rem;
+    }
 }
